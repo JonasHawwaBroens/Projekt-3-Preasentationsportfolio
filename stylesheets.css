@@ -88,7 +88,7 @@
 }
     
 .tekst-boks2 {
-    display: grid;
+    display: flex;
     padding: 50px;
     grid-template-columns: 5fr 0.25fr;
     }
@@ -124,7 +124,7 @@
     background-image: url(Images/Selfie.jpg);
     background-size: cover;
     background-color: transparent;
-    border-radius: 50%;
+    border-radius: 25%;
     }
 
 .Titel {
