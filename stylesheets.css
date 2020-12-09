@@ -112,20 +112,45 @@
     padding: table;
     }
 
-.billede-boks1, .billede-boks2, .billede-boks3, 
-.billede-boks4, .billede-boks5, .billede-boks6, 
-.billede-boks7, .billede-boks8, .billede-boks9,
-.billede-boks10, .billede-boks11, .billede-boks12,
-.billede-boks13, .billede-boks14, .billede-boks15,
-.billede-boks16, .billede-boks17, .billede-boks18 {
+.billede-boks1 {
     display: grid;
     width: 200px;
     height: 200px;
     background-image: url(Images/Selfie.jpg);
     background-size: cover;
     background-color: transparent;
-    border-radius: 25%;
+    border-radius: 15%;
     }
+
+.billede-boks2 {
+    display: grid;
+    width: 200px;
+    height: 250px;
+    background-image: url(Images/Christmasheart.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15%;
+    }
+
+.billede-boks3 {
+        display: grid;
+        width: 200px;
+        height: 200px;
+        background-image: url(Images/Selfie.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 15%;
+        }
+    
+    .billede-boks4 {
+        display: grid;
+        width: 200px;
+        height: 250px;
+        background-image: url(Images/Christmasheart.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 15%;
+        }
 
 .Titel {
     font-size: 15px;
@@ -299,20 +324,25 @@
         padding: table;
         }
         
-        .billede-boks1, .billede-boks2, .billede-boks3, 
-        .billede-boks4, .billede-boks5, .billede-boks6, 
-        .billede-boks7, .billede-boks8, .billede-boks9,
-        .billede-boks10, .billede-boks11, .billede-boks12,
-        .billede-boks13, .billede-boks14, .billede-boks15,
-        .billede-boks16, .billede-boks17, .billede-boks18 {
-            display: grid;
-            width: 200px;
-            height: 200px;
-            background-image: url(Images/Selfie.jpg);
-            background-size: cover;
-            background-color: transparent;
-            border-radius: 50%;
-            }
+    .billede-boks1 {
+        display: grid;
+        width: 200px;
+        height: 200px;
+        background-image: url(Images/Selfie.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 25%;
+        }
+        
+    .billede-boks2 {
+        display: grid;
+        width: 200px;
+        height: 200px;
+        background-image: url(Images/Christmasheart.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 25%;
+        }
         
     .Titel {
         font-size: 100px;
