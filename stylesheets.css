@@ -142,15 +142,65 @@
         border-radius: 15%;
         }
     
-    .billede-boks4 {
-        display: grid;
-        width: 200px;
-        height: 250px;
-        background-image: url(Images/Christmasheart.jpg);
-        background-size: cover;
-        background-color: transparent;
-        border-radius: 15%;
-        }
+.billede-boks4 {
+    display: grid;
+    width: 200px;
+    height: 250px;
+    background-image: url(Images/Christmasheart.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15%;
+    }
+
+.billede-boks5 {
+    display: grid;
+    width: 200px;
+    height: 250px;
+    background-image: url(Images/Christmasheart.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15%;
+    }
+    
+.billede-boks6 {
+    display: grid;
+    width: 200px;
+    height: 250px;
+    background-image: url(Images/Christmasheart.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15%;
+    }
+
+.billede-boks7 {
+    display: grid;
+    width: 200px;
+    height: 250px;
+    background-image: url(Images/Christmasheart.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15%;
+    }
+
+.billede-boks8 {
+    display: grid;
+    width: 200px;
+    height: 250px;
+    background-image: url(Images/Christmasheart.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15%;
+    }
+
+.billede-boks9 {
+    display: grid;
+    width: 200px;
+    height: 250px;
+    background-image: url(Images/Christmasheart.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15%;
+    }
 
 .Titel {
     font-size: 15px;
@@ -342,6 +392,66 @@
         background-size: cover;
         background-color: transparent;
         border-radius: 25%;
+        }
+
+    .billede-boks3 {
+        display: grid;
+        width: 200px;
+        height: 250px;
+        background-image: url(Images/Christmasheart.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 15%;
+        }  
+
+    .billede-boks4 {
+        display: grid;
+        width: 200px;
+        height: 250px;
+        background-image: url(Images/Christmasheart.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 15%;
+        }
+        
+    .billede-boks5 {
+        display: grid;
+        width: 200px;
+        height: 250px;
+        background-image: url(Images/Christmasheart.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 15%;
+        }    
+
+    .billede-boks6 {
+        display: grid;
+        width: 200px;
+        height: 250px;
+        background-image: url(Images/Christmasheart.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 15%;
+        }
+
+    .billede-boks7 {
+        display: grid;
+        width: 200px;
+        height: 250px;
+        background-image: url(Images/Christmasheart.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 15%;
+        }
+
+    .billede-boks8 {
+        display: grid;
+        width: 200px;
+        height: 250px;
+        background-image: url(Images/Christmasheart.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 15%;
         }
         
     .Titel {
