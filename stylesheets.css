@@ -95,7 +95,7 @@
     
 .Tekst {
     font-family: sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(53, 53, 53);
     line-height: 1.5;
     }
@@ -164,92 +164,212 @@
     
 .billede-boks6 {
     display: grid;
-    width: 200px;
-    height: 250px;
-    background-image: url(Images/Christmasheart.jpg);
+    width: 190px;
+    height: 120px;
+    background-image: url(Images/WroofLogo.jpg);
     background-size: cover;
     background-color: transparent;
-    border-radius: 15%;
+    border-radius: 5%;
     }
 
 .billede-boks7 {
     display: grid;
-    width: 200px;
-    height: 250px;
-    background-image: url(Images/Christmasheart.jpg);
+    width: 190px;
+    height: 120px;
+    background-image: url(Images/ITHelpLogo.jpg);
     background-size: cover;
     background-color: transparent;
-    border-radius: 15%;
+    border-radius: 5%;
     }
 
 .billede-boks8 {
     display: grid;
-    width: 200px;
-    height: 250px;
-    background-image: url(Images/Christmasheart.jpg);
+    width: 190px;
+    height: 120px;
+    background-image: url(Images/AestetikOevelse.jpg);
     background-size: cover;
     background-color: transparent;
-    border-radius: 15%;
+    border-radius: 5%;
     }
 
 .billede-boks9 {
     display: grid;
-    width: 200px;
-    height: 250px;
-    background-image: url(Images/Christmasheart.jpg);
+    width: 195px;
+    height: 110px;
+    background-image: url(Images/MockupIndex.jpg);
     background-size: cover;
     background-color: transparent;
-    border-radius: 15%;
+    border-radius: 5%;
     }
 
 .billede-boks10 {
     display: grid;
-    width: 200px;
-    height: 250px;
-    background-image: url(Images/Christmasheart.jpg);
+    width: 195px;
+    height: 110px;
+    background-image: url(Images/MockupIndexBund.jpg);
     background-size: cover;
     background-color: transparent;
-    border-radius: 15%;
+    border-radius: 5%;
     }
 
 .billede-boks11 {
     display: grid;
-    width: 200px;
-    height: 250px;
-    background-image: url(Images/Christmasheart.jpg);
+    width: 190px;
+    height: 170px;
+    background-image: url(Images/MockupUnderMenuBar1.jpg);
     background-size: cover;
     background-color: transparent;
-    border-radius: 15%;
+    border-radius: 5%;
     }
 
 .billede-boks12 {
     display: grid;
-    width: 200px;
-    height: 250px;
-    background-image: url(Images/Christmasheart.jpg);
+    width: 190px;
+    height: 80px;
+    background-image: url(Images/MockupForum.jpg);
     background-size: cover;
     background-color: transparent;
-    border-radius: 15%;
+    border-radius: 5%;
     }
 
 .billede-boks13 {
     display: grid;
-    width: 200px;
-    height: 250px;
-    background-image: url(Images/Christmasheart.jpg);
+    width: 190px;
+    height: 170px;
+    background-image: url(Images/MockupUnderMenuBar2.jpg);
     background-size: cover;
     background-color: transparent;
-    border-radius: 15%;
+    border-radius: 5%;
     }
 
 .billede-boks14 {
     display: grid;
-    width: 200px;
-    height: 250px;
+    width: 195px;
+    height: 110px;
+    background-image: url(Images/MockupUndersideMedlemmer.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks15 {
+    display: grid;
+    width: 195px;
+    height: 110px;
+    background-image: url(Images/MockupUndersideMedlemmerBund.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks16 {
+    display: grid;
+    width: 195px;
+    height: 110px;
+    background-image: url(Images/MockupUndersideBestyrrelsen.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks17 {
+    display: grid;
+    width: 190px;
+    height: 62.5px;
+    background-image: url(Images/MockupSlideDownKortKontaktWebudvikleren.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks18 {
+    display: grid;
+    width: 125px;
+    height: 251px;
+    background-image: url(Images/MockupSlidedownKortLinks.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks19 {
+    display: grid;
+    width: 190px;
+    height: 150px;
+    background-image: url(Images/DigitaltKatalogSideNr1.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks20 {
+    display: grid;
+    width: 190px;
+    height: 150px;
+    background-image: url(Images/DigitaltKatalogSideNr2.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks21 {
+    display: grid;
+    width: 190px;
+    height: 220px;
+    background-image: url(Images/LoadingIkon.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks22 {
+    display: grid;
+    width: 190px;
+    height: 240px;
     background-image: url(Images/Christmasheart.jpg);
     background-size: cover;
     background-color: transparent;
-    border-radius: 15%;
+    border-radius: 5%;
+    }
+
+.billede-boks23 {
+    display: grid;
+    width: 190px;
+    height: 240px;
+    background-image: url(Images/Christmasheart.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+    
+.billede-boks24 {
+    display: grid;
+    width: 190px;
+    height: 240px;
+    background-image: url(Images/Christmasheart.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+    
+.billede-boks25 {
+    display: grid;
+    width: 190px;
+    height: 240px;
+    background-image: url(Images/Christmasheart.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+    
+.billede-boks26 {
+    display: grid;
+    width: 190px;
+    height: 240px;
+    background-image: url(Images/Christmasheart.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
     }
 
 .Titel {
@@ -310,30 +430,29 @@
 @media (width: 100%) {
     .grid-container {
         display: grid;
-        grid-auto-rows: minmax(150px, auto);
+        grid-template-columns: 1fr;
         background-color: transparent;
-        padding: 10px;
         width: 100%;
         }
-
+    
     .header-index {
         grid-area: header;
-        padding: 200px;
-        background-color: rgb(230, 237, 240);
+        background-color: white;
         border: solid lightgray;
+        padding: 30px;
         grid-column-start: 1;
         grid-column-end: 6;
         grid-row-start: 1;
         grid-row-end: 3;
-        border-radius: 30px;
         width: 100%;
+        border-radius: 20px;
         }
-
+    
     .homepage-menu {
         grid-area: menu;
-        padding: 200px;
-        background-color: rgb(230, 237, 240);
+        background-color: white;
         border: solid lightgray;
+        padding: 30px;
         grid-column-start: 1;
         grid-column-end: 6;
         grid-row-start: 3;
@@ -341,12 +460,12 @@
         width: 100%;
         border-radius: 20px;
         }
-
+    
     .main-content1 {
         grid-area: main1;
-        padding: 200px;
         background-color: white;
         border: solid lightgray;
+        padding: 30px;
         grid-column-start: 1;
         grid-column-end: 6;
         grid-row-start: 4;
@@ -354,28 +473,28 @@
         width: 100%;
         border-radius: 20px;
         }
-
+    
     .footer {
         grid-area: footer;
-        padding: 200px;
         background-color: white;
         border: solid lightgrey;
+        padding: 30px;
         grid-column-start: 1;
         grid-column-end: 6;
         grid-row-start: 18;
         grid-row-end: 20;
-        border-radius: 20px;
         width: 100%;
+        border-radius: 20px;
         }
-        
+    
     .logo-boks {
         display: grid;
         width: 150px;
         height: 150px;
         background-image: url(Images/personligt-logo.png);
         background-size: cover;
-        }
-
+    }
+    
     .menu-punkter {
         display: flex;
         list-style-type: none;
@@ -383,47 +502,46 @@
         font-family: sans-serif;
         text-transform: uppercase;
         border-radius: 20px;
-        width: 100%;
         }
         
     .top-navigation-link {
         text-decoration: none;
         font-weight: 700;
-        font-size: 30px;
+        font-size: 15px;
         color: black;
         }
-        
+    
     .tekst-boks1 {
         display: grid;
         padding: 50px;
         grid-template-columns: 5fr 0.25fr;
-        }
-            
+    }
+        
     .tekst-boks2 {
-        display: grid;
+        display: flex;
         padding: 50px;
         grid-template-columns: 5fr 0.25fr;
         }
         
     .Tekst {
         font-family: sans-serif;
-        font-size: 25px;
+        font-size: 20px;
         color: rgb(53, 53, 53);
         line-height: 1.5;
         }
-
+    
     .column {
         float: left;
-        width: 23%;
+        width: 200px;
         padding: 5px;
         }
-
+    
     .row::after {
         content: "";
         clear: both;
         padding: table;
         }
-        
+    
     .billede-boks1 {
         display: grid;
         width: 200px;
@@ -433,7 +551,7 @@
         background-color: transparent;
         border-radius: 15%;
         }
-        
+    
     .billede-boks2 {
         display: grid;
         width: 200px;
@@ -443,7 +561,7 @@
         background-color: transparent;
         border-radius: 15%;
         }
-        
+    
     .billede-boks3 {
         display: grid;
         width: 200px;
@@ -453,7 +571,7 @@
         background-color: transparent;
         border-radius: 15%;
         }
-            
+        
     .billede-boks4 {
         display: grid;
         width: 200px;
@@ -463,7 +581,7 @@
         background-color: transparent;
         border-radius: 15%;
         }
-        
+    
     .billede-boks5 {
         display: grid;
         width: 200px;
@@ -472,114 +590,225 @@
         background-size: cover;
         background-color: transparent;
         border-radius: 15%;
-        }    
-
+        }
+        
     .billede-boks6 {
         display: grid;
-        width: 200px;
-        height: 250px;
-        background-image: url(Images/Christmasheart.jpg);
+        width: 190px;
+        height: 120px;
+        background-image: url(Images/WroofLogo.jpg);
         background-size: cover;
         background-color: transparent;
-        border-radius: 15%;
+        border-radius: 5%;
         }
-
+    
     .billede-boks7 {
         display: grid;
-        width: 200px;
-        height: 250px;
-        background-image: url(Images/Christmasheart.jpg);
+        width: 190px;
+        height: 120px;
+        background-image: url(Images/ITHelpLogo.jpg);
         background-size: cover;
         background-color: transparent;
-        border-radius: 15%;
+        border-radius: 5%;
         }
-
+    
     .billede-boks8 {
         display: grid;
-        width: 200px;
-        height: 250px;
-        background-image: url(Images/Christmasheart.jpg);
+        width: 190px;
+        height: 120px;
+        background-image: url(Images/AestetikOevelse.jpg);
         background-size: cover;
         background-color: transparent;
-        border-radius: 15%;
+        border-radius: 5%;
         }
     
     .billede-boks9 {
         display: grid;
-        width: 200px;
-        height: 250px;
-        background-image: url(Images/Christmasheart.jpg);
+        width: 195px;
+        height: 110px;
+        background-image: url(Images/MockupIndex.jpg);
         background-size: cover;
         background-color: transparent;
-        border-radius: 15%;
+        border-radius: 5%;
         }
-
+    
     .billede-boks10 {
         display: grid;
-        width: 200px;
-        height: 250px;
-        background-image: url(Images/Christmasheart.jpg);
+        width: 195px;
+        height: 110px;
+        background-image: url(Images/MockupIndexBund.jpg);
         background-size: cover;
         background-color: transparent;
-        border-radius: 15%;
+        border-radius: 5%;
         }
-
+    
     .billede-boks11 {
         display: grid;
-        width: 200px;
-        height: 250px;
-        background-image: url(Images/Christmasheart.jpg);
+        width: 190px;
+        height: 170px;
+        background-image: url(Images/MockupUnderMenuBar1.jpg);
         background-size: cover;
         background-color: transparent;
-        border-radius: 15%;
+        border-radius: 5%;
         }
-
+    
     .billede-boks12 {
         display: grid;
-        width: 200px;
-        height: 250px;
-        background-image: url(Images/Christmasheart.jpg);
+        width: 190px;
+        height: 80px;
+        background-image: url(Images/MockupForum.jpg);
         background-size: cover;
         background-color: transparent;
-        border-radius: 15%;
+        border-radius: 5%;
         }
-
+    
     .billede-boks13 {
         display: grid;
-        width: 200px;
-        height: 250px;
-        background-image: url(Images/Christmasheart.jpg);
+        width: 190px;
+        height: 170px;
+        background-image: url(Images/MockupUnderMenuBar2.jpg);
         background-size: cover;
         background-color: transparent;
-        border-radius: 15%;
+        border-radius: 5%;
         }
-
+    
     .billede-boks14 {
         display: grid;
-        width: 200px;
-        height: 250px;
-        background-image: url(Images/Christmasheart.jpg);
+        width: 195px;
+        height: 110px;
+        background-image: url(Images/MockupUndersideMedlemmer.jpg);
         background-size: cover;
         background-color: transparent;
-        border-radius: 15%;
+        border-radius: 5%;
         }
-
+    
     .billede-boks15 {
         display: grid;
-        width: 200px;
-        height: 250px;
+        width: 195px;
+        height: 110px;
+        background-image: url(Images/MockupUndersideMedlemmerBund.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks16 {
+        display: grid;
+        width: 195px;
+        height: 110px;
+        background-image: url(Images/MockupUndersideBestyrrelsen.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks17 {
+        display: grid;
+        width: 190px;
+        height: 62.5px;
+        background-image: url(Images/MockupSlideDownKortKontaktWebudvikleren.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks18 {
+        display: grid;
+        width: 125px;
+        height: 251px;
+        background-image: url(Images/MockupSlidedownKortLinks.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks19 {
+        display: grid;
+        width: 190px;
+        height: 150px;
+        background-image: url(Images/DigitaltKatalogSideNr1.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks20 {
+        display: grid;
+        width: 190px;
+        height: 150px;
+        background-image: url(Images/DigitaltKatalogSideNr2.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks21 {
+        display: grid;
+        width: 190px;
+        height: 220px;
+        background-image: url(Images/LoadingIkon.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks22 {
+        display: grid;
+        width: 190px;
+        height: 240px;
         background-image: url(Images/Christmasheart.jpg);
         background-size: cover;
         background-color: transparent;
-        border-radius: 15%;
+        border-radius: 5%;
+        }
+    
+    .billede-boks23 {
+        display: grid;
+        width: 190px;
+        height: 240px;
+        background-image: url(Images/Christmasheart.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
         }
         
+    .billede-boks24 {
+        display: grid;
+        width: 190px;
+        height: 240px;
+        background-image: url(Images/Christmasheart.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+        
+    .billede-boks25 {
+        display: grid;
+        width: 190px;
+        height: 240px;
+        background-image: url(Images/Christmasheart.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+        
+    .billede-boks26 {
+        display: grid;
+        width: 190px;
+        height: 240px;
+        background-image: url(Images/Christmasheart.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
     .Titel {
-        font-size: 100px;
+        font-size: 15px;
         font-family: sans-serif;
+        font-style: italic;
         font-weight: bold;
         }
-
+    
     .menu-link-box1 {
         display: grid;
         padding: 15px;
@@ -587,7 +816,7 @@
         border: solid lightgrey;
         border-radius: 30px;
         }
-        
+    
     .menu-link-box2 {
         display: grid;
         padding: 15px;
@@ -603,7 +832,7 @@
         border: solid lightgrey;
         border-radius: 30px;
         }
-
+        
     .footer-link-box1 {
         display: grid;
         padding: 15px;
@@ -611,7 +840,7 @@
         border: solid lightgrey;
         border-radius: 30px;
         }
-            
+        
     .footer-link-box2 {
         display: grid;
         padding: 15px;
