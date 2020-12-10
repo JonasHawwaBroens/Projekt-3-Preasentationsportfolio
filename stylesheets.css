@@ -125,28 +125,28 @@
 .billede-boks2 {
     display: grid;
     width: 200px;
-    height: 250px;
-    background-image: url(Images/Christmasheart.jpg);
+    height: 200px;
+    background-image: url(Images/AdobeIllustrator.png);
     background-size: cover;
     background-color: transparent;
     border-radius: 15%;
     }
 
 .billede-boks3 {
-        display: grid;
-        width: 200px;
-        height: 200px;
-        background-image: url(Images/Selfie.jpg);
-        background-size: cover;
-        background-color: transparent;
-        border-radius: 15%;
-        }
+    display: grid;
+    width: 200px;
+    height: 200px;
+    background-image: url(Images/AdobeLightroomClassic.png);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15%;
+    }
     
 .billede-boks4 {
     display: grid;
     width: 200px;
-    height: 250px;
-    background-image: url(Images/Christmasheart.jpg);
+    height: 200px;
+    background-image: url(Images/AdobePhotoshop.png);
     background-size: cover;
     background-color: transparent;
     border-radius: 15%;
@@ -155,8 +155,8 @@
 .billede-boks5 {
     display: grid;
     width: 200px;
-    height: 250px;
-    background-image: url(Images/Christmasheart.jpg);
+    height: 200px;
+    background-image: url(Images/AdobeXD.png);
     background-size: cover;
     background-color: transparent;
     border-radius: 15%;
@@ -193,6 +193,56 @@
     }
 
 .billede-boks9 {
+    display: grid;
+    width: 200px;
+    height: 250px;
+    background-image: url(Images/Christmasheart.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15%;
+    }
+
+.billede-boks10 {
+    display: grid;
+    width: 200px;
+    height: 250px;
+    background-image: url(Images/Christmasheart.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15%;
+    }
+
+.billede-boks11 {
+    display: grid;
+    width: 200px;
+    height: 250px;
+    background-image: url(Images/Christmasheart.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15%;
+    }
+
+.billede-boks12 {
+    display: grid;
+    width: 200px;
+    height: 250px;
+    background-image: url(Images/Christmasheart.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15%;
+    }
+
+.billede-boks13 {
+    display: grid;
+    width: 200px;
+    height: 250px;
+    background-image: url(Images/Christmasheart.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15%;
+    }
+
+.billede-boks14 {
     display: grid;
     width: 200px;
     height: 250px;
@@ -381,34 +431,34 @@
         background-image: url(Images/Selfie.jpg);
         background-size: cover;
         background-color: transparent;
-        border-radius: 25%;
+        border-radius: 15%;
         }
         
     .billede-boks2 {
         display: grid;
         width: 200px;
         height: 200px;
-        background-image: url(Images/Christmasheart.jpg);
-        background-size: cover;
-        background-color: transparent;
-        border-radius: 25%;
-        }
-
-    .billede-boks3 {
-        display: grid;
-        width: 200px;
-        height: 250px;
-        background-image: url(Images/Christmasheart.jpg);
+        background-image: url(Images/AdobeIllustrator.png);
         background-size: cover;
         background-color: transparent;
         border-radius: 15%;
-        }  
-
+        }
+        
+    .billede-boks3 {
+        display: grid;
+        width: 200px;
+        height: 200px;
+        background-image: url(Images/AdobeLightroomClassic.png);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 15%;
+        }
+            
     .billede-boks4 {
         display: grid;
         width: 200px;
-        height: 250px;
-        background-image: url(Images/Christmasheart.jpg);
+        height: 200px;
+        background-image: url(Images/AdobePhotoshop.png);
         background-size: cover;
         background-color: transparent;
         border-radius: 15%;
@@ -417,8 +467,8 @@
     .billede-boks5 {
         display: grid;
         width: 200px;
-        height: 250px;
-        background-image: url(Images/Christmasheart.jpg);
+        height: 200px;
+        background-image: url(Images/AdobeXD.png);
         background-size: cover;
         background-color: transparent;
         border-radius: 15%;
@@ -445,6 +495,76 @@
         }
 
     .billede-boks8 {
+        display: grid;
+        width: 200px;
+        height: 250px;
+        background-image: url(Images/Christmasheart.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 15%;
+        }
+    
+    .billede-boks9 {
+        display: grid;
+        width: 200px;
+        height: 250px;
+        background-image: url(Images/Christmasheart.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 15%;
+        }
+
+    .billede-boks10 {
+        display: grid;
+        width: 200px;
+        height: 250px;
+        background-image: url(Images/Christmasheart.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 15%;
+        }
+
+    .billede-boks11 {
+        display: grid;
+        width: 200px;
+        height: 250px;
+        background-image: url(Images/Christmasheart.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 15%;
+        }
+
+    .billede-boks12 {
+        display: grid;
+        width: 200px;
+        height: 250px;
+        background-image: url(Images/Christmasheart.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 15%;
+        }
+
+    .billede-boks13 {
+        display: grid;
+        width: 200px;
+        height: 250px;
+        background-image: url(Images/Christmasheart.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 15%;
+        }
+
+    .billede-boks14 {
+        display: grid;
+        width: 200px;
+        height: 250px;
+        background-image: url(Images/Christmasheart.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 15%;
+        }
+
+    .billede-boks15 {
         display: grid;
         width: 200px;
         height: 250px;
