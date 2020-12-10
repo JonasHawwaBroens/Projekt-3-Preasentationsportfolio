@@ -324,9 +324,9 @@
 
 .billede-boks22 {
     display: grid;
-    width: 190px;
-    height: 240px;
-    background-image: url(Images/Christmasheart.jpg);
+    width: 180px;
+    height: 270px;
+    background-image: url(Images/TegneseriePanelNr1TegneserieSideNr1TilHamletSpørgelsetSlashHamletInterGhost.jpg);
     background-size: cover;
     background-color: transparent;
     border-radius: 5%;
@@ -334,9 +334,9 @@
 
 .billede-boks23 {
     display: grid;
-    width: 190px;
-    height: 240px;
-    background-image: url(Images/Christmasheart.jpg);
+    width: 180px;
+    height: 270px;
+    background-image: url(Images/TegneseriePanelNr2TegneserieSideNr1TilHamletSpørgelsetSlashHamletInterGhost.jpg);
     background-size: cover;
     background-color: transparent;
     border-radius: 5%;
@@ -345,28 +345,8 @@
 .billede-boks24 {
     display: grid;
     width: 190px;
-    height: 240px;
-    background-image: url(Images/Christmasheart.jpg);
-    background-size: cover;
-    background-color: transparent;
-    border-radius: 5%;
-    }
-    
-.billede-boks25 {
-    display: grid;
-    width: 190px;
-    height: 240px;
-    background-image: url(Images/Christmasheart.jpg);
-    background-size: cover;
-    background-color: transparent;
-    border-radius: 5%;
-    }
-    
-.billede-boks26 {
-    display: grid;
-    width: 190px;
-    height: 240px;
-    background-image: url(Images/Christmasheart.jpg);
+    height: 140px;
+    background-image: url(Images/TegneseriePanelNr3TegneserieSideNr1TilHamletSpørgelsetSlashHamletInterGhost.jpg);
     background-size: cover;
     background-color: transparent;
     border-radius: 5%;
@@ -754,9 +734,9 @@
     
     .billede-boks22 {
         display: grid;
-        width: 190px;
-        height: 240px;
-        background-image: url(Images/Christmasheart.jpg);
+        width: 180px;
+        height: 270px;
+        background-image: url(Images/TegneseriePanelNr1TegneserieSideNr1TilHamletSpørgelsetSlashHamletInterGhost.jpg);
         background-size: cover;
         background-color: transparent;
         border-radius: 5%;
@@ -764,9 +744,9 @@
     
     .billede-boks23 {
         display: grid;
-        width: 190px;
-        height: 240px;
-        background-image: url(Images/Christmasheart.jpg);
+        width: 180px;
+        height: 270px;
+        background-image: url(Images/TegneseriePanelNr2TegneserieSideNr1TilHamletSpørgelsetSlashHamletInterGhost.jpg);
         background-size: cover;
         background-color: transparent;
         border-radius: 5%;
@@ -775,28 +755,8 @@
     .billede-boks24 {
         display: grid;
         width: 190px;
-        height: 240px;
-        background-image: url(Images/Christmasheart.jpg);
-        background-size: cover;
-        background-color: transparent;
-        border-radius: 5%;
-        }
-        
-    .billede-boks25 {
-        display: grid;
-        width: 190px;
-        height: 240px;
-        background-image: url(Images/Christmasheart.jpg);
-        background-size: cover;
-        background-color: transparent;
-        border-radius: 5%;
-        }
-        
-    .billede-boks26 {
-        display: grid;
-        width: 190px;
-        height: 240px;
-        background-image: url(Images/Christmasheart.jpg);
+        height: 140px;
+        background-image: url(Images/TegneseriePanelNr3TegneserieSideNr1TilHamletSpørgelsetSlashHamletInterGhost.jpg);
         background-size: cover;
         background-color: transparent;
         border-radius: 5%;
