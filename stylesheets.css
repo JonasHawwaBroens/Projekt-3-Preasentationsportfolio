@@ -234,36 +234,6 @@
 
 .billede-boks13 {
     display: grid;
-    width: 190px;
-    height: 170px;
-    background-image: url(Images/MockupUnderMenuBar2.jpg);
-    background-size: cover;
-    background-color: transparent;
-    border-radius: 5%;
-    }
-
-.billede-boks14 {
-    display: grid;
-    width: 195px;
-    height: 110px;
-    background-image: url(Images/MockupUndersideMedlemmer.jpg);
-    background-size: cover;
-    background-color: transparent;
-    border-radius: 5%;
-    }
-
-.billede-boks15 {
-    display: grid;
-    width: 195px;
-    height: 110px;
-    background-image: url(Images/MockupUndersideMedlemmerBund.jpg);
-    background-size: cover;
-    background-color: transparent;
-    border-radius: 5%;
-    }
-
-.billede-boks16 {
-    display: grid;
     width: 195px;
     height: 110px;
     background-image: url(Images/MockupUndersideBestyrrelsen.jpg);
@@ -272,7 +242,7 @@
     border-radius: 5%;
     }
 
-.billede-boks17 {
+.billede-boks14 {
     display: grid;
     width: 190px;
     height: 62.5px;
@@ -282,7 +252,7 @@
     border-radius: 5%;
     }
 
-.billede-boks18 {
+.billede-boks15 {
     display: grid;
     width: 125px;
     height: 251px;
@@ -292,7 +262,67 @@
     border-radius: 5%;
     }
 
+.billede-boks16 {
+    display: grid;
+    width: 140px;
+    height: 250px;
+    background-image: url(Images/FoodAppForside.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+    
+.billede-boks17 {
+    display: grid;
+    width: 190px;
+    height: 89px;
+    background-image: url(Images/FoodAppFilterOutBackgroundNoiceEnabled.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks18 {
+    display: grid;
+    width: 190px;
+    height: 89px;
+    background-image: url(Images/FoodAppSpeechToTextEnabled.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
 .billede-boks19 {
+    display: grid;
+    width: 140px;
+    height: 275px;
+    background-image: url(Images/FoodAppMenusideEksempel.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks20 {
+    display: grid;
+    width: 140px;
+    height: 275px;
+    background-image: url(Images/FoodAppIngrediensOgBeskrivelsessideEksempel.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+ .billede-boks21 {
+    display: grid;
+    width: 140px;
+    height: 275px;
+    background-image: url(Images/FoodAppOdrebekræftelsessideEksempel.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks22 {
     display: grid;
     width: 190px;
     height: 150px;
@@ -302,7 +332,7 @@
     border-radius: 5%;
     }
 
-.billede-boks20 {
+.billede-boks23 {
     display: grid;
     width: 190px;
     height: 150px;
@@ -312,7 +342,7 @@
     border-radius: 5%;
     }
 
-.billede-boks21 {
+.billede-boks24 {
     display: grid;
     width: 190px;
     height: 220px;
@@ -322,7 +352,7 @@
     border-radius: 5%;
     }
 
-.billede-boks22 {
+.billede-boks25 {
     display: grid;
     width: 180px;
     height: 270px;
@@ -332,7 +362,7 @@
     border-radius: 5%;
     }
 
-.billede-boks23 {
+.billede-boks26 {
     display: grid;
     width: 180px;
     height: 270px;
@@ -342,7 +372,7 @@
     border-radius: 5%;
     }
     
-.billede-boks24 {
+.billede-boks27 {
     display: grid;
     width: 190px;
     height: 140px;
@@ -644,36 +674,6 @@
     
     .billede-boks13 {
         display: grid;
-        width: 190px;
-        height: 170px;
-        background-image: url(Images/MockupUnderMenuBar2.jpg);
-        background-size: cover;
-        background-color: transparent;
-        border-radius: 5%;
-        }
-    
-    .billede-boks14 {
-        display: grid;
-        width: 195px;
-        height: 110px;
-        background-image: url(Images/MockupUndersideMedlemmer.jpg);
-        background-size: cover;
-        background-color: transparent;
-        border-radius: 5%;
-        }
-    
-    .billede-boks15 {
-        display: grid;
-        width: 195px;
-        height: 110px;
-        background-image: url(Images/MockupUndersideMedlemmerBund.jpg);
-        background-size: cover;
-        background-color: transparent;
-        border-radius: 5%;
-        }
-    
-    .billede-boks16 {
-        display: grid;
         width: 195px;
         height: 110px;
         background-image: url(Images/MockupUndersideBestyrrelsen.jpg);
@@ -682,7 +682,7 @@
         border-radius: 5%;
         }
     
-    .billede-boks17 {
+    .billede-boks14 {
         display: grid;
         width: 190px;
         height: 62.5px;
@@ -692,7 +692,7 @@
         border-radius: 5%;
         }
     
-    .billede-boks18 {
+    .billede-boks15 {
         display: grid;
         width: 125px;
         height: 251px;
@@ -702,7 +702,67 @@
         border-radius: 5%;
         }
     
+    .billede-boks16 {
+        display: grid;
+        width: 140px;
+        height: 250px;
+        background-image: url(Images/FoodAppForside.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+        
+    .billede-boks17 {
+        display: grid;
+        width: 190px;
+        height: 89px;
+        background-image: url(Images/FoodAppFilterOutBackgroundNoiceEnabled.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks18 {
+        display: grid;
+        width: 190px;
+        height: 89px;
+        background-image: url(Images/FoodAppSpeechToTextEnabled.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
     .billede-boks19 {
+        display: grid;
+        width: 140px;
+        height: 275px;
+        background-image: url(Images/FoodAppMenusideEksempel.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks20 {
+        display: grid;
+        width: 140px;
+        height: 275px;
+        background-image: url(Images/FoodAppIngrediensOgBeskrivelsessideEksempel.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+     .billede-boks21 {
+        display: grid;
+        width: 140px;
+        height: 275px;
+        background-image: url(Images/FoodAppOdrebekræftelsessideEksempel.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks22 {
         display: grid;
         width: 190px;
         height: 150px;
@@ -712,7 +772,7 @@
         border-radius: 5%;
         }
     
-    .billede-boks20 {
+    .billede-boks23 {
         display: grid;
         width: 190px;
         height: 150px;
@@ -722,7 +782,7 @@
         border-radius: 5%;
         }
     
-    .billede-boks21 {
+    .billede-boks24 {
         display: grid;
         width: 190px;
         height: 220px;
@@ -732,7 +792,7 @@
         border-radius: 5%;
         }
     
-    .billede-boks22 {
+    .billede-boks25 {
         display: grid;
         width: 180px;
         height: 270px;
@@ -742,7 +802,7 @@
         border-radius: 5%;
         }
     
-    .billede-boks23 {
+    .billede-boks26 {
         display: grid;
         width: 180px;
         height: 270px;
@@ -752,7 +812,7 @@
         border-radius: 5%;
         }
         
-    .billede-boks24 {
+    .billede-boks27 {
         display: grid;
         width: 190px;
         height: 140px;
