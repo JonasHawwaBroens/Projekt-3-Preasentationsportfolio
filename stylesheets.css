@@ -1,3 +1,4 @@
+/* Laptop */
 .grid-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -105,12 +106,6 @@
     float: left;
     width: 200px;
     padding: 5px;
-    }
-
-.row::after {
-    content: "";
-    clear: both;
-    padding: table;
     }
 
 .billede-boks1 {
@@ -438,12 +433,17 @@
     border-radius: 30px;
     }
 
-@media (width: 100%) {
-    .grid-container {
+/* iPhone 5, 5S, 5C and 5SE (Portrait and Landscape) */
+@media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2) 
+    
+    {.grid-container {
         display: grid;
         grid-template-columns: 1fr;
         background-color: transparent;
-        width: 100%;
+        width: 568px;
         }
     
     .header-index {
@@ -455,7 +455,6 @@
         grid-column-end: 6;
         grid-row-start: 1;
         grid-row-end: 3;
-        width: 100%;
         border-radius: 20px;
         }
     
@@ -468,7 +467,6 @@
         grid-column-end: 6;
         grid-row-start: 3;
         grid-row-end: 4;
-        width: 100%;
         border-radius: 20px;
         }
     
@@ -481,7 +479,6 @@
         grid-column-end: 6;
         grid-row-start: 4;
         grid-row-end: 18;
-        width: 100%;
         border-radius: 20px;
         }
     
@@ -494,7 +491,7 @@
         grid-column-end: 6;
         grid-row-start: 18;
         grid-row-end: 20;
-        width: 100%;
+        width: 568px;
         border-radius: 20px;
         }
     
@@ -546,12 +543,6 @@
         float: left;
         width: 200px;
         padding: 5px;
-        }
-    
-    .row::after {
-        content: "";
-        clear: both;
-        padding: table;
         }
     
     .billede-boks1 {
@@ -878,7 +869,1322 @@
         border: solid lightgrey;
         border-radius: 30px;
         }
+  
+  }
 
+/* iPhone 6, 6S, 7 and 8 (Portrait and Landscape) */
+@media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px)
+    and (-webkit-min-device-pixel-ratio: 2) 
+    
+    {.grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: transparent;
+        width: 667px;
+        }
+    
+    .header-index {
+        grid-area: header;
+        background-color: white;
+        border: solid lightgray;
+        padding: 30px;
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        border-radius: 20px;
+        }
+    
+    .homepage-menu {
+        grid-area: menu;
+        background-color: white;
+        border: solid lightgray;
+        padding: 30px;
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        border-radius: 20px;
+        }
+    
+    .main-content1 {
+        grid-area: main1;
+        background-color: white;
+        border: solid lightgray;
+        padding: 30px;
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 4;
+        grid-row-end: 18;
+        border-radius: 20px;
+        }
+    
+    .footer {
+        grid-area: footer;
+        background-color: white;
+        border: solid lightgrey;
+        padding: 30px;
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 18;
+        grid-row-end: 20;
+        width: 667px;
+        border-radius: 20px;
+        }
+    
+    .logo-boks {
+        display: grid;
+        width: 150px;
+        height: 150px;
+        background-image: url(Images/personligt-logo.png);
+        background-size: cover;
+    }
+    
+    .menu-punkter {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        border-radius: 20px;
+        }
+        
+    .top-navigation-link, .bottom-navigation-link {
+        text-transform: none;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 15px;
+        color: black;
+        }
+    
+    .tekst-boks1 {
+        display: grid;
+        padding: 50px;
+        grid-template-columns: 5fr 0.25fr;
+    }
+        
+    .tekst-boks2 {
+        display: flex;
+        padding: 50px;
+        grid-template-columns: 5fr 0.25fr;
+        }
+        
+    .Tekst {
+        font-family: sans-serif;
+        font-size: 30px;
+        color: rgb(53, 53, 53);
+        line-height: 1.5;
+        }
+    
+    .column {
+        float: left;
+        width: 200px;
+        padding: 5px;
+        }
+    
+    .billede-boks1 {
+        display: grid;
+        width: 200px;
+        height: 200px;
+        background-image: url(Images/Selfie.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 15%;
+        }
+    
+    .billede-boks2 {
+        display: grid;
+        width: 200px;
+        height: 200px;
+        background-image: url(Images/AdobeIllustrator.png);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 15%;
+        }
+    
+    .billede-boks3 {
+        display: grid;
+        width: 200px;
+        height: 200px;
+        background-image: url(Images/AdobeLightroomClassic.png);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 15%;
+        }
+        
+    .billede-boks4 {
+        display: grid;
+        width: 200px;
+        height: 200px;
+        background-image: url(Images/AdobePhotoshop.png);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 15%;
+        }
+    
+    .billede-boks5 {
+        display: grid;
+        width: 200px;
+        height: 200px;
+        background-image: url(Images/AdobeXD.png);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 15%;
+        }
+        
+    .billede-boks6 {
+        display: grid;
+        width: 190px;
+        height: 120px;
+        background-image: url(Images/WroofLogo.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks7 {
+        display: grid;
+        width: 190px;
+        height: 120px;
+        background-image: url(Images/ITHelpLogo.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks8 {
+        display: grid;
+        width: 190px;
+        height: 120px;
+        background-image: url(Images/AestetikOevelse.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks9 {
+        display: grid;
+        width: 195px;
+        height: 110px;
+        background-image: url(Images/MockupIndex.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks10 {
+        display: grid;
+        width: 195px;
+        height: 110px;
+        background-image: url(Images/MockupIndexBund.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks11 {
+        display: grid;
+        width: 190px;
+        height: 170px;
+        background-image: url(Images/MockupUnderMenuBar1.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks12 {
+        display: grid;
+        width: 190px;
+        height: 80px;
+        background-image: url(Images/MockupForum.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks13 {
+        display: grid;
+        width: 195px;
+        height: 110px;
+        background-image: url(Images/MockupUndersideBestyrrelsen.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks14 {
+        display: grid;
+        width: 190px;
+        height: 62.5px;
+        background-image: url(Images/MockupSlideDownKortKontaktWebudvikleren.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks15 {
+        display: grid;
+        width: 125px;
+        height: 251px;
+        background-image: url(Images/MockupSlidedownKortLinks.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks16 {
+        display: grid;
+        width: 140px;
+        height: 250px;
+        background-image: url(Images/FoodAppForside.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+        
+    .billede-boks17 {
+        display: grid;
+        width: 190px;
+        height: 89px;
+        background-image: url(Images/FoodAppFilterOutBackgroundNoiceEnabled.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks18 {
+        display: grid;
+        width: 190px;
+        height: 89px;
+        background-image: url(Images/FoodAppSpeechToTextEnabled.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks19 {
+        display: grid;
+        width: 140px;
+        height: 275px;
+        background-image: url(Images/FoodAppMenusideEksempel.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks20 {
+        display: grid;
+        width: 140px;
+        height: 275px;
+        background-image: url(Images/FoodAppIngrediensOgBeskrivelsessideEksempel.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+     .billede-boks21 {
+        display: grid;
+        width: 140px;
+        height: 275px;
+        background-image: url(Images/FoodAppOdrebekræftelsessideEksempel.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks22 {
+        display: grid;
+        width: 190px;
+        height: 150px;
+        background-image: url(Images/DigitaltKatalogSideNr1.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks23 {
+        display: grid;
+        width: 190px;
+        height: 150px;
+        background-image: url(Images/DigitaltKatalogSideNr2.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks24 {
+        display: grid;
+        width: 190px;
+        height: 220px;
+        background-image: url(Images/LoadingIkon.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks25 {
+        display: grid;
+        width: 180px;
+        height: 270px;
+        background-image: url(Images/TegneseriePanelNr1TegneserieSideNr1TilHamletSpørgelsetSlashHamletInterGhost.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .billede-boks26 {
+        display: grid;
+        width: 180px;
+        height: 270px;
+        background-image: url(Images/TegneseriePanelNr2TegneserieSideNr1TilHamletSpørgelsetSlashHamletInterGhost.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+        
+    .billede-boks27 {
+        display: grid;
+        width: 190px;
+        height: 140px;
+        background-image: url(Images/TegneseriePanelNr3TegneserieSideNr1TilHamletSpørgelsetSlashHamletInterGhost.jpg);
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 5%;
+        }
+    
+    .Titel {
+        font-size: 50px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        }
+    
+    .menu-link-box1 {
+        display: grid;
+        padding: 15px;
+        background-color: white;
+        border: solid lightgrey;
+        border-radius: 30px;
+        }
+    
+    .menu-link-box2 {
+        display: grid;
+        padding: 15px;
+        background-color: white;
+        border: solid lightgrey;
+        border-radius: 30px;
+        }
+    
+    .menu-link-box3 {
+        display: grid;
+        padding: 15px;
+        background-color: white;
+        border: solid lightgrey;
+        border-radius: 30px;
+        }
+        
+    .footer-link-box1 {
+        display: grid;
+        padding: 15px;
+        background-color: white;
+        border: solid lightgrey;
+        border-radius: 30px;
+        }
+        
+    .footer-link-box2 {
+        display: grid;
+        padding: 15px;
+        background-color: white;
+        border: solid lightgrey;
+        border-radius: 30px;
+        }
+        
+    .footer-link-box3 {
+        display: grid;
+        padding: 15px;
+        background-color: white;
+        border: solid lightgrey;
+        border-radius: 30px;
+        }
+  
+  }
+
+/* iPhone iPhone 6+, 7+ and 8+ (Portrait and Landscape) */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3) 
+
+{.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: transparent;
+    width: 736px;
     }
 
+.header-index {
+    grid-area: header;
+    background-color: white;
+    border: solid lightgray;
+    padding: 30px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 20px;
+    }
+
+.homepage-menu {
+    grid-area: menu;
+    background-color: white;
+    border: solid lightgray;
+    padding: 30px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border-radius: 20px;
+    }
+
+.main-content1 {
+    grid-area: main1;
+    background-color: white;
+    border: solid lightgray;
+    padding: 30px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 18;
+    border-radius: 20px;
+    }
+
+.footer {
+    grid-area: footer;
+    background-color: white;
+    border: solid lightgrey;
+    padding: 30px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 18;
+    grid-row-end: 20;
+    width: 736px;
+    border-radius: 20px;
+    }
+
+.logo-boks {
+    display: grid;
+    width: 150px;
+    height: 150px;
+    background-image: url(Images/personligt-logo.png);
+    background-size: cover;
+}
+
+.menu-punkter {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    border-radius: 20px;
+    }
     
+.top-navigation-link, .bottom-navigation-link {
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+    }
+
+.tekst-boks1 {
+    display: grid;
+    padding: 50px;
+    grid-template-columns: 5fr 0.25fr;
+}
+    
+.tekst-boks2 {
+    display: flex;
+    padding: 50px;
+    grid-template-columns: 5fr 0.25fr;
+    }
+    
+.Tekst {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgb(53, 53, 53);
+    line-height: 1.5;
+    }
+
+.column {
+    float: left;
+    width: 200px;
+    padding: 5px;
+    }
+
+.billede-boks1 {
+    display: grid;
+    width: 200px;
+    height: 200px;
+    background-image: url(Images/Selfie.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15%;
+    }
+
+.billede-boks2 {
+    display: grid;
+    width: 200px;
+    height: 200px;
+    background-image: url(Images/AdobeIllustrator.png);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15%;
+    }
+
+.billede-boks3 {
+    display: grid;
+    width: 200px;
+    height: 200px;
+    background-image: url(Images/AdobeLightroomClassic.png);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15%;
+    }
+    
+.billede-boks4 {
+    display: grid;
+    width: 200px;
+    height: 200px;
+    background-image: url(Images/AdobePhotoshop.png);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15%;
+    }
+
+.billede-boks5 {
+    display: grid;
+    width: 200px;
+    height: 200px;
+    background-image: url(Images/AdobeXD.png);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15%;
+    }
+    
+.billede-boks6 {
+    display: grid;
+    width: 190px;
+    height: 120px;
+    background-image: url(Images/WroofLogo.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks7 {
+    display: grid;
+    width: 190px;
+    height: 120px;
+    background-image: url(Images/ITHelpLogo.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks8 {
+    display: grid;
+    width: 190px;
+    height: 120px;
+    background-image: url(Images/AestetikOevelse.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks9 {
+    display: grid;
+    width: 195px;
+    height: 110px;
+    background-image: url(Images/MockupIndex.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks10 {
+    display: grid;
+    width: 195px;
+    height: 110px;
+    background-image: url(Images/MockupIndexBund.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks11 {
+    display: grid;
+    width: 190px;
+    height: 170px;
+    background-image: url(Images/MockupUnderMenuBar1.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks12 {
+    display: grid;
+    width: 190px;
+    height: 80px;
+    background-image: url(Images/MockupForum.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks13 {
+    display: grid;
+    width: 195px;
+    height: 110px;
+    background-image: url(Images/MockupUndersideBestyrrelsen.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks14 {
+    display: grid;
+    width: 190px;
+    height: 62.5px;
+    background-image: url(Images/MockupSlideDownKortKontaktWebudvikleren.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks15 {
+    display: grid;
+    width: 125px;
+    height: 251px;
+    background-image: url(Images/MockupSlidedownKortLinks.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks16 {
+    display: grid;
+    width: 140px;
+    height: 250px;
+    background-image: url(Images/FoodAppForside.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+    
+.billede-boks17 {
+    display: grid;
+    width: 190px;
+    height: 89px;
+    background-image: url(Images/FoodAppFilterOutBackgroundNoiceEnabled.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks18 {
+    display: grid;
+    width: 190px;
+    height: 89px;
+    background-image: url(Images/FoodAppSpeechToTextEnabled.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks19 {
+    display: grid;
+    width: 140px;
+    height: 275px;
+    background-image: url(Images/FoodAppMenusideEksempel.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks20 {
+    display: grid;
+    width: 140px;
+    height: 275px;
+    background-image: url(Images/FoodAppIngrediensOgBeskrivelsessideEksempel.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+ .billede-boks21 {
+    display: grid;
+    width: 140px;
+    height: 275px;
+    background-image: url(Images/FoodAppOdrebekræftelsessideEksempel.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks22 {
+    display: grid;
+    width: 190px;
+    height: 150px;
+    background-image: url(Images/DigitaltKatalogSideNr1.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks23 {
+    display: grid;
+    width: 190px;
+    height: 150px;
+    background-image: url(Images/DigitaltKatalogSideNr2.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks24 {
+    display: grid;
+    width: 190px;
+    height: 220px;
+    background-image: url(Images/LoadingIkon.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks25 {
+    display: grid;
+    width: 180px;
+    height: 270px;
+    background-image: url(Images/TegneseriePanelNr1TegneserieSideNr1TilHamletSpørgelsetSlashHamletInterGhost.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks26 {
+    display: grid;
+    width: 180px;
+    height: 270px;
+    background-image: url(Images/TegneseriePanelNr2TegneserieSideNr1TilHamletSpørgelsetSlashHamletInterGhost.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+    
+.billede-boks27 {
+    display: grid;
+    width: 190px;
+    height: 140px;
+    background-image: url(Images/TegneseriePanelNr3TegneserieSideNr1TilHamletSpørgelsetSlashHamletInterGhost.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.Titel {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    }
+
+.menu-link-box1 {
+    display: grid;
+    padding: 15px;
+    background-color: white;
+    border: solid lightgrey;
+    border-radius: 30px;
+    }
+
+.menu-link-box2 {
+    display: grid;
+    padding: 15px;
+    background-color: white;
+    border: solid lightgrey;
+    border-radius: 30px;
+    }
+
+.menu-link-box3 {
+    display: grid;
+    padding: 15px;
+    background-color: white;
+    border: solid lightgrey;
+    border-radius: 30px;
+    }
+    
+.footer-link-box1 {
+    display: grid;
+    padding: 15px;
+    background-color: white;
+    border: solid lightgrey;
+    border-radius: 30px;
+    }
+    
+.footer-link-box2 {
+    display: grid;
+    padding: 15px;
+    background-color: white;
+    border: solid lightgrey;
+    border-radius: 30px;
+    }
+    
+.footer-link-box3 {
+    display: grid;
+    padding: 15px;
+    background-color: white;
+    border: solid lightgrey;
+    border-radius: 30px;
+    }
+
+}
+
+/* iPhone iPhone X (Portrait and Landscape) */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) 
+
+{.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: transparent;
+    width: 812px;
+    }
+
+.header-index {
+    grid-area: header;
+    background-color: white;
+    border: solid lightgray;
+    padding: 30px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 20px;
+    }
+
+.homepage-menu {
+    grid-area: menu;
+    background-color: white;
+    border: solid lightgray;
+    padding: 30px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border-radius: 20px;
+    }
+
+.main-content1 {
+    grid-area: main1;
+    background-color: white;
+    border: solid lightgray;
+    padding: 30px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 18;
+    border-radius: 20px;
+    }
+
+.footer {
+    grid-area: footer;
+    background-color: white;
+    border: solid lightgrey;
+    padding: 30px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 18;
+    grid-row-end: 20;
+    width: 812px;
+    border-radius: 20px;
+    }
+
+.logo-boks {
+    display: grid;
+    width: 150px;
+    height: 150px;
+    background-image: url(Images/personligt-logo.png);
+    background-size: cover;
+}
+
+.menu-punkter {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    border-radius: 20px;
+    }
+    
+.top-navigation-link, .bottom-navigation-link {
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+    }
+
+.tekst-boks1 {
+    display: grid;
+    padding: 50px;
+    grid-template-columns: 5fr 0.25fr;
+}
+    
+.tekst-boks2 {
+    display: flex;
+    padding: 50px;
+    grid-template-columns: 5fr 0.25fr;
+    }
+    
+.Tekst {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgb(53, 53, 53);
+    line-height: 1.5;
+    }
+
+.column {
+    float: left;
+    width: 200px;
+    padding: 5px;
+    }
+
+.billede-boks1 {
+    display: grid;
+    width: 200px;
+    height: 200px;
+    background-image: url(Images/Selfie.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15%;
+    }
+
+.billede-boks2 {
+    display: grid;
+    width: 200px;
+    height: 200px;
+    background-image: url(Images/AdobeIllustrator.png);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15%;
+    }
+
+.billede-boks3 {
+    display: grid;
+    width: 200px;
+    height: 200px;
+    background-image: url(Images/AdobeLightroomClassic.png);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15%;
+    }
+    
+.billede-boks4 {
+    display: grid;
+    width: 200px;
+    height: 200px;
+    background-image: url(Images/AdobePhotoshop.png);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15%;
+    }
+
+.billede-boks5 {
+    display: grid;
+    width: 200px;
+    height: 200px;
+    background-image: url(Images/AdobeXD.png);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15%;
+    }
+    
+.billede-boks6 {
+    display: grid;
+    width: 190px;
+    height: 120px;
+    background-image: url(Images/WroofLogo.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks7 {
+    display: grid;
+    width: 190px;
+    height: 120px;
+    background-image: url(Images/ITHelpLogo.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks8 {
+    display: grid;
+    width: 190px;
+    height: 120px;
+    background-image: url(Images/AestetikOevelse.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks9 {
+    display: grid;
+    width: 195px;
+    height: 110px;
+    background-image: url(Images/MockupIndex.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks10 {
+    display: grid;
+    width: 195px;
+    height: 110px;
+    background-image: url(Images/MockupIndexBund.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks11 {
+    display: grid;
+    width: 190px;
+    height: 170px;
+    background-image: url(Images/MockupUnderMenuBar1.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks12 {
+    display: grid;
+    width: 190px;
+    height: 80px;
+    background-image: url(Images/MockupForum.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks13 {
+    display: grid;
+    width: 195px;
+    height: 110px;
+    background-image: url(Images/MockupUndersideBestyrrelsen.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks14 {
+    display: grid;
+    width: 190px;
+    height: 62.5px;
+    background-image: url(Images/MockupSlideDownKortKontaktWebudvikleren.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks15 {
+    display: grid;
+    width: 125px;
+    height: 251px;
+    background-image: url(Images/MockupSlidedownKortLinks.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks16 {
+    display: grid;
+    width: 140px;
+    height: 250px;
+    background-image: url(Images/FoodAppForside.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+    
+.billede-boks17 {
+    display: grid;
+    width: 190px;
+    height: 89px;
+    background-image: url(Images/FoodAppFilterOutBackgroundNoiceEnabled.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks18 {
+    display: grid;
+    width: 190px;
+    height: 89px;
+    background-image: url(Images/FoodAppSpeechToTextEnabled.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks19 {
+    display: grid;
+    width: 140px;
+    height: 275px;
+    background-image: url(Images/FoodAppMenusideEksempel.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks20 {
+    display: grid;
+    width: 140px;
+    height: 275px;
+    background-image: url(Images/FoodAppIngrediensOgBeskrivelsessideEksempel.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+ .billede-boks21 {
+    display: grid;
+    width: 140px;
+    height: 275px;
+    background-image: url(Images/FoodAppOdrebekræftelsessideEksempel.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks22 {
+    display: grid;
+    width: 190px;
+    height: 150px;
+    background-image: url(Images/DigitaltKatalogSideNr1.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks23 {
+    display: grid;
+    width: 190px;
+    height: 150px;
+    background-image: url(Images/DigitaltKatalogSideNr2.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks24 {
+    display: grid;
+    width: 190px;
+    height: 220px;
+    background-image: url(Images/LoadingIkon.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks25 {
+    display: grid;
+    width: 180px;
+    height: 270px;
+    background-image: url(Images/TegneseriePanelNr1TegneserieSideNr1TilHamletSpørgelsetSlashHamletInterGhost.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.billede-boks26 {
+    display: grid;
+    width: 180px;
+    height: 270px;
+    background-image: url(Images/TegneseriePanelNr2TegneserieSideNr1TilHamletSpørgelsetSlashHamletInterGhost.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+    
+.billede-boks27 {
+    display: grid;
+    width: 190px;
+    height: 140px;
+    background-image: url(Images/TegneseriePanelNr3TegneserieSideNr1TilHamletSpørgelsetSlashHamletInterGhost.jpg);
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 5%;
+    }
+
+.Titel {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    }
+
+.menu-link-box1 {
+    display: grid;
+    padding: 15px;
+    background-color: white;
+    border: solid lightgrey;
+    border-radius: 30px;
+    }
+
+.menu-link-box2 {
+    display: grid;
+    padding: 15px;
+    background-color: white;
+    border: solid lightgrey;
+    border-radius: 30px;
+    }
+
+.menu-link-box3 {
+    display: grid;
+    padding: 15px;
+    background-color: white;
+    border: solid lightgrey;
+    border-radius: 30px;
+    }
+    
+.footer-link-box1 {
+    display: grid;
+    padding: 15px;
+    background-color: white;
+    border: solid lightgrey;
+    border-radius: 30px;
+    }
+    
+.footer-link-box2 {
+    display: grid;
+    padding: 15px;
+    background-color: white;
+    border: solid lightgrey;
+    border-radius: 30px;
+    }
+    
+.footer-link-box3 {
+    display: grid;
+    padding: 15px;
+    background-color: white;
+    border: solid lightgrey;
+    border-radius: 30px;
+    }
+
+}
