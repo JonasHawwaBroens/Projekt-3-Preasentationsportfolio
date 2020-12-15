@@ -8,54 +8,52 @@
 
 .header-index {
     grid-area: header;
-    background-color: white;
-    border: solid lightgray;
+    background-image: url(Images/BaggrundsbilledeTilHeader.jpg);
+    background-size: cover;
+    border: solid #ffffff;
     padding: 30px;
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 3;
     width: 100%;
-    border-radius: 20px;
     }
 
 .homepage-menu {
     grid-area: menu;
-    background-color: white;
-    border: solid lightgray;
+    background-color: #000000;
+    border: solid #ffffff;
     padding: 30px;
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 3;
     grid-row-end: 4;
     width: 100%;
-    border-radius: 20px;
     }
 
 .main-content1 {
     grid-area: main1;
-    background-color: white;
-    border: solid lightgray;
+    background-image: url(Images/Selfie2.jpg);
+    background-size: cover;
+    border: solid #ffffff;
     padding: 30px;
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 4;
     grid-row-end: 18;
     width: 100%;
-    border-radius: 20px;
     }
 
 .footer {
     grid-area: footer;
-    background-color: white;
-    border: solid lightgrey;
+    background-color: #000000;
+    border: solid #ffffff;
     padding: 30px;
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 18;
     grid-row-end: 20;
     width: 100%;
-    border-radius: 20px;
     }
 
 .logo-boks {
@@ -388,48 +386,48 @@
 .menu-link-box1 {
     display: grid;
     padding: 15px;
-    background-color: white;
-    border: solid lightgrey;
+    background-color: #ffffff;
+    border: solid #ffffff;
     border-radius: 30px;
     }
 
 .menu-link-box2 {
     display: grid;
     padding: 15px;
-    background-color: white;
-    border: solid lightgrey;
+    background-color: #ffffff;
+    border: solid #ffffff;
     border-radius: 30px;
     }
 
 .menu-link-box3 {
     display: grid;
     padding: 15px;
-    background-color: white;
-    border: solid lightgrey;
+    background-color: #ffffff;
+    border: solid #ffffff;
     border-radius: 30px;
     }
     
 .footer-link-box1 {
     display: grid;
     padding: 15px;
-    background-color: white;
-    border: solid lightgrey;
+    background-color: #ffffff;
+    border: solid #ffffff;
     border-radius: 30px;
     }
     
 .footer-link-box2 {
     display: grid;
     padding: 15px;
-    background-color: white;
-    border: solid lightgrey;
+    background-color: #ffffff;
+    border: solid #ffffff;
     border-radius: 30px;
     }
     
 .footer-link-box3 {
     display: grid;
     padding: 15px;
-    background-color: white;
-    border: solid lightgrey;
+    background-color: #ffffff;
+    border: solid #ffffff;
     border-radius: 30px;
     }
 
@@ -447,51 +445,49 @@
     
     .header-index {
         grid-area: header;
-        background-color: white;
-        border: solid lightgray;
+        background-image: url(Images/BaggrundsbilledeTilHeader.jpg);
+        background-size: cover;
+        border: solid #ffffff;
         padding: 30px;
         grid-column-start: 1;
         grid-column-end: 6;
         grid-row-start: 1;
         grid-row-end: 3;
-        border-radius: 20px;
         }
     
     .homepage-menu {
         grid-area: menu;
-        background-color: white;
-        border: solid lightgray;
+        background-color: #000000;
+        border: solid #ffffff;
         padding: 30px;
         grid-column-start: 1;
         grid-column-end: 6;
         grid-row-start: 3;
         grid-row-end: 4;
-        border-radius: 20px;
         }
     
     .main-content1 {
         grid-area: main1;
-        background-color: white;
-        border: solid lightgray;
+        background-image: url(Images/Selfie2.jpg);
+        background-size: cover;
+        border: solid #ffffff;
         padding: 30px;
         grid-column-start: 1;
         grid-column-end: 6;
         grid-row-start: 4;
         grid-row-end: 18;
-        border-radius: 20px;
         }
     
     .footer {
         grid-area: footer;
-        background-color: white;
-        border: solid lightgrey;
+        background-color: #000000;
+        border: solid #ffffff;
         padding: 30px;
         grid-column-start: 1;
         grid-column-end: 6;
         grid-row-start: 18;
         grid-row-end: 20;
         width: 568px;
-        border-radius: 20px;
         }
     
     .logo-boks {
@@ -824,48 +820,48 @@
     .menu-link-box1 {
         display: grid;
         padding: 15px;
-        background-color: white;
-        border: solid lightgrey;
+        background-color: #ffffff;
+        border: solid #ffffff;
         border-radius: 30px;
         }
     
     .menu-link-box2 {
         display: grid;
         padding: 15px;
-        background-color: white;
-        border: solid lightgrey;
+        background-color: #ffffff;
+        border: solid #ffffff;
         border-radius: 30px;
         }
     
     .menu-link-box3 {
         display: grid;
         padding: 15px;
-        background-color: white;
-        border: solid lightgrey;
+        background-color: #ffffff;
+        border: solid #ffffff;
         border-radius: 30px;
         }
         
     .footer-link-box1 {
         display: grid;
         padding: 15px;
-        background-color: white;
-        border: solid lightgrey;
+        background-color: #ffffff;
+        border: solid #ffffff;
         border-radius: 30px;
         }
         
     .footer-link-box2 {
         display: grid;
         padding: 15px;
-        background-color: white;
-        border: solid lightgrey;
+        background-color: #ffffff;
+        border: solid #ffffff;
         border-radius: 30px;
         }
         
     .footer-link-box3 {
         display: grid;
         padding: 15px;
-        background-color: white;
-        border: solid lightgrey;
+        background-color: #ffffff;
+        border: solid #ffffff;
         border-radius: 30px;
         }
   
@@ -885,51 +881,49 @@ and (max-device-width: 1024px)
 
 .header-index {
     grid-area: header;
-    background-color: white;
-    border: solid lightgray;
+    background-image: url(Images/BaggrundsbilledeTilHeader.jpg);
+    background-size: cover;
+    border: solid #ffffff;
     padding: 30px;
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 3;
-    border-radius: 20px;
     }
 
 .homepage-menu {
     grid-area: menu;
-    background-color: white;
-    border: solid lightgray;
+    background-color: #000000;
+    border: solid #ffffff;
     padding: 30px;
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 3;
     grid-row-end: 4;
-    border-radius: 20px;
     }
 
 .main-content1 {
     grid-area: main1;
-    background-color: white;
-    border: solid lightgray;
+    background-image: url(Images/Selfie2.jpg);
+    background-size: cover;
+    border: solid #ffffff;
     padding: 30px;
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 4;
     grid-row-end: 18;
-    border-radius: 20px;
     }
 
 .footer {
     grid-area: footer;
-    background-color: white;
-    border: solid lightgrey;
+    background-color: #000000;
+    border: solid #ffffff;
     padding: 30px;
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 18;
     grid-row-end: 20;
-    width: 1024px;
-    border-radius: 20px;
+    width: 1068px;
     }
 
 .logo-boks {
@@ -1262,48 +1256,48 @@ and (max-device-width: 1024px)
 .menu-link-box1 {
     display: grid;
     padding: 15px;
-    background-color: white;
-    border: solid lightgrey;
+    background-color: #ffffff;
+    border: solid #ffffff;
     border-radius: 30px;
     }
 
 .menu-link-box2 {
     display: grid;
     padding: 15px;
-    background-color: white;
-    border: solid lightgrey;
+    background-color: #ffffff;
+    border: solid #ffffff;
     border-radius: 30px;
     }
 
 .menu-link-box3 {
     display: grid;
     padding: 15px;
-    background-color: white;
-    border: solid lightgrey;
+    background-color: #ffffff;
+    border: solid #ffffff;
     border-radius: 30px;
     }
     
 .footer-link-box1 {
     display: grid;
     padding: 15px;
-    background-color: white;
-    border: solid lightgrey;
+    background-color: #ffffff;
+    border: solid #ffffff;
     border-radius: 30px;
     }
     
 .footer-link-box2 {
     display: grid;
     padding: 15px;
-    background-color: white;
-    border: solid lightgrey;
+    background-color: #ffffff;
+    border: solid #ffffff;
     border-radius: 30px;
     }
     
 .footer-link-box3 {
     display: grid;
     padding: 15px;
-    background-color: white;
-    border: solid lightgrey;
+    background-color: #ffffff;
+    border: solid #ffffff;
     border-radius: 30px;
     }
 
